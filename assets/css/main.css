@@ -137,7 +137,7 @@ h1, h2, h3, h4 {
 .corre span a:hover{
   text-decoration:none;
 }
-.cont{
+.cont p{
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   background: #000;
@@ -146,29 +146,66 @@ h1, h2, h3, h4 {
   display: inline-block;
   border-radius: 10px;
 }
+.box2{
+  background: #009CDE;
+  padding: 15px;
+}
+.boton {
+  display: block;
+  color: #000;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin:5px auto;
+}
+.btn1{
+  background: #009CDE;
+}
+.btn1:hover{
+  background: #B1C9D0;
+  text-decoration: none;
+  color: #009CDE;
+}
+.btn2{
+  background: #C4D6DC;
+}
+.btn2:hover{
+  background:#0869C1;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn3{
+  background: #B1C9D0;
+}
+.btn3:hover{
+  background:#009CDE;
+  text-decoration: none;
+  color: #fff;
+}
+
 
 @media (max-width: 767px) {
-
   .esp {
   display: block;
-  padding: 10px;
+  padding: 15px;
 }
 
 .tituLog{
-  font-size: 10px;
-  margin: 80px auto 25px;
+  font-size: 20px;
 }
 
 .formLog {
   padding: 10px 5px;
 }
 
-.formLog  .inp1::placeholder {
-  font-size: 10px;
-}
 .formLog label {
   padding: 5px 15px 5px 30px;
-  font-size: 10px;
+  font-size: 12px;
   margin: 10px auto;
 }
 .formLog .checkbox input[type="checkbox"]:checked + label {
@@ -176,47 +213,86 @@ h1, h2, h3, h4 {
 }
 .formLog .pLog{
   padding: 10px;
-  font-size: 12px;
+  font-size: 14px;
 }
 .formLog .btnlog{
   font-size: 12px;
 }
 /*====*/
 .box-log {
-  padding: 20px 2px;
+  padding: 30px 2px;
   margin-top: 20px;
 }
 .tpasos{
-  font-size: 14px;
+  font-size: 18px;
 }
 .tblue{
   padding: 4px;
-  margin: 5px auto;
-  font-size: 10px;
+  margin: 5px auto 50px;
+  font-size: 14px;
 }
 .ancho{
   padding: 0 5px;
 }
 .corre{
-  color: #000;
-   font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 8px;
+  font-size: 11px;
 }
 .corre span, .corre span a{
+  font-size: 14px;
+}
+.cont p{
+  font-size: 12px;
+  padding: 8px;
+}
+.cont br{
+  display: none;
+  }
+  .box2{
+  padding: 1px;
+}
+.boton {
+  padding: 15px;
+  font-size: 12px;
+  margin:5px auto;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .esp {
   display: block;
-  color: #fff;
-   font-family: 'Montserrat', sans-serif;
-  font-size: 10px;
+  padding: 15px;
 }
-.corre span a:hover{
-  text-decoration:none;
+/*====*/
+.box-log {
+  padding: 30px 2px;
+  margin-top: 20px;
 }
-.cont{
-  font-size: 8px;
-  padding: 4px 5px;
+.tpasos{
+  font-size: 18px;
+}
+.tblue{
+  padding: 4px;
+  margin: 5px auto 50px;
+  font-size: 14px;
+}
+.ancho{
+  padding: 0 5px;
+}
+.corre{
+  font-size: 11px;
+}
+.ancho br{
+  display: none;
+}
+.corre span, .corre span a{
+  font-size: 14px;
+}
+.cont p{
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+  padding: 8px;
+  text-align: center;
 }
 
 }
-@media (min-width: 768px) and (max-width: 991px) {}
 @media (min-width: 992px) and (max-width: 1199px){}
